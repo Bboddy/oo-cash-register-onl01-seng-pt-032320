@@ -14,7 +14,7 @@ class CashRegister
     }
   end
   
-  def apply_discount(discount)
+  def apply_discount
     @total = total*(discount*0.01)
     return "sucess"
   end
