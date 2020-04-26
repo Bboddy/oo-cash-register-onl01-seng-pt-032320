@@ -13,4 +13,8 @@ class CashRegister
       cart << title
     }
   end
+  
+  def apply_discount
+    
+  end
 end
