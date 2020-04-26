@@ -9,7 +9,7 @@ class CashRegister
   
   def add_item(title, price, quantity = 1)
     self.total += price*quantity
-    quantity.eval do {
+    quantity.times do {
       cart << title
     }
   end
