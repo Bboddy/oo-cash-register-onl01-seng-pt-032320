@@ -9,7 +9,8 @@ class CashRegister
   
   def add_item(title, price, quantity = 1)
     quantity.each {
-      title << @cart
+      cart << title
     }
+    self.total += price*quantity
   end
 end
