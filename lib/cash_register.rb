@@ -8,6 +8,8 @@ class CashRegister
   end
   
   def add_item(title, price, quantity = 1)
-    quantity.
+    quantity.each {
+      title << @cart
+    }
   end
 end
