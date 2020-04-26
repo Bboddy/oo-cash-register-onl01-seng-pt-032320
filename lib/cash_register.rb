@@ -1,7 +1,7 @@
 class CashRegister
   attr_accessor :new
   
-  def initialize(new = 0)
+  def initialize(new)
     @new = new
   end
 end
